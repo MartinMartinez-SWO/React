@@ -1,0 +1,9 @@
+.containerNav{
+    height:8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+}

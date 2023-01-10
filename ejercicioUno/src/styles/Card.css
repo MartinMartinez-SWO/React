@@ -1,0 +1,19 @@
+.card{
+    height: 5vh;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 100%;
+}
+
+.cardsAppContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10vh;
+    padding: 10px;
+}
