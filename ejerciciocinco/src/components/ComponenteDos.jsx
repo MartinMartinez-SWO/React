@@ -1,16 +1,16 @@
 import React from 'react'
 
 let persona = {
-  username : "Martin",
-  telephone: "986521475"
+  username : "Aitor",
+  email: "aitor@guapo.com"
 }
 
-function ComponenteDos(prop) {
+function ComponenteDos({telephone}) {
   return (
     <div>
-      <h1>Segunda persona: {persona.username}</h1>
-      <h1>Segunda persona telf: {persona.telephone}</h1>
-      {console.log(prop)}
+        <h1>Nombre: {persona.username}</h1>
+        <h1>Email: {persona.email}</h1>
+        <h2>Teléfono: {telephone}</h2>
     </div>
   )
 }

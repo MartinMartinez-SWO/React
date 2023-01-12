@@ -5,12 +5,12 @@ import ComponenteUno from './components/ComponenteUno'
 import ComponenteDos from './components/ComponenteDos'
 
 
-function App(prop) {
+function App() {
 
   return (
     <div>
-      <ComponenteUno text="test1"/>
-      <ComponenteDos text="test2"/>
+      <ComponenteUno telephone={55555555}/>
+      <ComponenteDos telephone={66666666}/>
     </div>
   )
 }
